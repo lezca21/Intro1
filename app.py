@@ -10,7 +10,8 @@ image = Image.open("imagen.jpg")
 
 st.image(image, caption="Ay mi madre el bicho")
 
-texto = st.text_input("El mejor leon de la historia mundial", "este es unico y divno",texto)
+texto = st.text_input("El mejor leon de la historia mundial", "este es unico y divno")
+st.write('El leon te ama',texto)
 
 st.subheader("Ahora hay dos columnas")
 
