@@ -10,8 +10,7 @@ image = Image.open("imagen.jpg")
 
 st.image(image, caption="Ay mi madre el bicho")
 
-texto = st.text_input("El mejor jugador de la historia"," Un crack goles de cabeza, pierna derecha, pierna izquierda, alto, veloz, fuerte")
-st.write("Esto es el fucking futbol",texto)
+texto = st.text_input("El mejor leon de la historia mundial, este es unico y divno",texto)
 
 st.subheader("Ahora hay dos columnas")
 
