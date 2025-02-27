@@ -6,7 +6,7 @@ st.title("Hello word")
 
 st.header("En este espacio comienzo a desarrollar mis apps de interfaces multimodales")
 st.write("Facilmente puedo hacer backed y fortend")
-image = Image.open("imagen.jpg")
+image = Image.open("images.jpeg")
 
 st.image(image, caption="Ay mi madre el bicho")
 
@@ -26,5 +26,10 @@ with col1:
 
 with col2:
   st.subheader("Segunda columna")
-  modo = st.radio("Tu que prefieres backed o fronted",("backed,fronted,ninguna"))
-  if modo == backend
+  modo = st.radio("Tu que prefieres backed o fronted",("backend","fronted","ninguna"))
+  if modo == "backend":
+    st.write("Eres de los mios siuuuuuu")
+  if modo == "fronted":
+    st.write("Eres una mierda gasss")
+  if modo == "ninguna":
+    st.write("Que estas haciendo aqui entonces")
